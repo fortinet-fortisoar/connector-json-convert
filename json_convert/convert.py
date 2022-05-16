@@ -14,9 +14,12 @@ def convert(config, params):
         logger.exception('Missing required input')
         raise ConnectorError('Missing required input')
 
-    if parser not in jc.parser_mod_list():
-        logger.exception(f'"{parser}" parser not valid. Only standard parsers are supported. Streaming parsers are not supported.')
-        raise ConnectorError(f'"{parser}" parser not valid. Only standard parsers are supported. Streaming parsers are not supported.')
+    if parser in jc.streaming_parser_mod_list():
+        logger.exception(f'"{parser}" parser not valid. Streaming parsers are not supported.')
+        raise ConnectorError(f'"{parser}" parser not valid. Streaming parsers are not supported.')
+
+    if parser not in jc.standard_parser_mod_list():
+        logger.exception(f'"{parser}" parser not valid.')
+        raise ConnectorError(f'"{parser}" parser not valid.')
 
     return jc.parse(parser, cmd_output, raw=raw, quiet=True)
-  
