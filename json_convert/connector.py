@@ -6,7 +6,7 @@ from .constants import LOGGER_NAME
 from .health_check import health_check
 logger = get_logger(LOGGER_NAME)
 
-class JcParseCommandOutput(Connector):
+class JsonConvert(Connector):
 
     def dev_execute(self, config, operation, params, *args, **kwargs):
         # Call dev_execute from the 'execute' function if you are doing very frequent changes to the connector code and changes don't reflect without a service restart
