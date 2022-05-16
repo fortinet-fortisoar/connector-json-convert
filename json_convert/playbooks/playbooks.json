@@ -3,7 +3,7 @@
   "data": [
     {
       "@type": "WorkflowCollection",
-      "name": "JC Sample Playbooks",
+      "name": "JSON Convert Sample Playbooks",
       "description": null,
       "visible": true,
       "image": null,
@@ -45,7 +45,7 @@
                   "command_output": "{{vars.date}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -212,7 +212,7 @@
                   "command_output": "{{vars.arp}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -333,7 +333,7 @@
                   "command_output": "{{vars.netstat}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -408,7 +408,7 @@
                   "command_output": "{{vars.ping}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -529,7 +529,7 @@
                   "command_output": "{{vars.file}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -650,7 +650,7 @@
                   "command_output": "{{vars.my_env}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -789,7 +789,7 @@
                   "command_output": "{{vars.ifconfig}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -920,7 +920,7 @@
                   "command_output": "{{vars.route}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -1013,7 +1013,7 @@
                   "command_output": "{{vars.uptime}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -1134,7 +1134,7 @@
                   "command_output": "{{vars.w}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -1283,7 +1283,7 @@
                   "command_output": "{{vars.last}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -1422,7 +1422,7 @@
                   "command_output": "{{vars.tracepath}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -1497,7 +1497,7 @@
                   "command_output": "{{vars.ls}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -1618,7 +1618,7 @@
                   "command_output": "{{vars.lo}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -1767,7 +1767,7 @@
                   "command_output": "{{vars.ps}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -1906,7 +1906,7 @@
                   "command_output": "{{vars.mount}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -2009,7 +2009,7 @@
                   "command_output": "{{vars.hosts}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -2130,7 +2130,7 @@
                   "command_output": "{{vars.uname}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -2241,7 +2241,7 @@
                   "command_output": "{{vars.free}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
@@ -2372,7 +2372,7 @@
                   "command_output": "{{vars.sha256sum}}"
                 },
                 "version": "1.0.0",
-                "connector": "jc_parse_command_output",
+                "connector": "json_convert",
                 "operation": "convert",
                 "operationTitle": "Convert command output to a Dict or List of Dicts",
                 "pickFromTenant": false,
