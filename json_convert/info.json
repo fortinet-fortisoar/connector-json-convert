@@ -1,5 +1,5 @@
 {
-    "name": "jc_parse_command_output",
+    "name": "json_convert",
     "version": "1.0.0",
     "label": "JC - Parse Command Output",
     "description": "Convert command output to structured objects using JC",
