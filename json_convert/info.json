@@ -23,8 +23,9 @@
             },
             "parameters": [
                 {
-                    "title": "JC Parser (for a list of JC parsers, see https://github.com/kellyjonbrazil/jc#parsers)",
-                    "type": "text",
+                    "title": "JC Parser",
+                    "type": "select",
+                    "apiOperation": "get_parser_list",
                     "name": "parser",
                     "required": true,
                     "visible": true,
@@ -47,6 +48,15 @@
                 }
             ],
             "open": false
+        },
+        {
+            "operation": "get_parser_list",
+            "title": "Get Parser List",
+            "description": "Get Parser List",
+            "enabled": true,
+            "visible": false,
+            "parameters": [],
+            "output_schema": []
         }
     ],
     "forked_from": false
