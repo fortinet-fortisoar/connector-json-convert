@@ -1,0 +1,63 @@
+{
+    "name": "json_convert",
+    "version": "1.0.0",
+    "label": "JC - Parse Command Output",
+    "description": "Convert command output to structured objects using JC",
+    "publisher": "Community",
+    "icon_small_name": "jc_small.png",
+    "icon_medium_name": "",
+    "icon_large_name": "jc_large.png",
+    "category": "",
+    "configuration": {},
+    "operations": [
+        {
+            "operation": "convert",
+            "title": "Convert",
+            "description": "Convert command output to a Dict or List of Dicts.",
+            "enabled": true,
+            "category": "utilities",
+            "annotation": "",
+            "output_schema": {
+                "result": "",
+                "api_data": ""
+            },
+            "parameters": [
+                {
+                    "title": "JC Parser",
+                    "type": "select",
+                    "apiOperation": "get_parser_list",
+                    "name": "parser",
+                    "required": true,
+                    "visible": true,
+                    "editable": true
+                },
+                {
+                    "title": "Command Output to Parse",
+                    "type": "textarea",
+                    "name": "command_output",
+                    "required": true,
+                    "visible": true,
+                    "editable": true
+                },
+                {
+                    "title": "Raw Output",
+                    "type": "checkbox",
+                    "name": "raw",
+                    "visible": true,
+                    "editable": true
+                }
+            ],
+            "open": false
+        },
+        {
+            "operation": "get_parser_list",
+            "title": "Get Parser List",
+            "description": "Get Parser List",
+            "enabled": true,
+            "visible": false,
+            "parameters": [],
+            "output_schema": []
+        }
+    ],
+    "forked_from": false
+}
