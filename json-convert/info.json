@@ -2,7 +2,7 @@
     "name": "json-convert",
     "version": "1.0.0",
     "label": "JC - Parse Command Output",
-    "description": "Convert command output to structured objects using JC",
+    "description": "Convert the output of many commands and file-types to structured objects using the open-source JSON Convert (JC) library. The JC project details can be found at https://github.com/kellyjonbrazil/jc",
     "publisher": "Community",
     "icon_small_name": "jc_small.png",
     "icon_medium_name": "",
@@ -13,7 +13,7 @@
         {
             "operation": "convert",
             "title": "Convert",
-            "description": "Convert command output to a Dict or List of Dicts.",
+            "description": "Convert command or file output to a Dict or List of Dicts.",
             "enabled": true,
             "category": "utilities",
             "annotation": "",
@@ -24,6 +24,7 @@
             "parameters": [
                 {
                     "title": "JC Parser",
+                    "description": "Select the correct parser to be used to convert the command or file output. Documentation for parsers can be found at https://github.com/kellyjonbrazil/jc#parsers.",
                     "type": "select",
                     "apiOperation": "get_parser_list",
                     "name": "parser",
@@ -32,7 +33,8 @@
                     "editable": true
                 },
                 {
-                    "title": "Command Output to Parse",
+                    "title": "Command or File Output to Parse",
+                    "description": "Enter the text string of the command or file output to be converted to a Dict or List of Dicts.",
                     "type": "textarea",
                     "name": "command_output",
                     "required": true,
@@ -41,6 +43,7 @@
                 },
                 {
                     "title": "Raw Output",
+                    "description": "An unprocessed conversion that will typically not include int, float, or bool conversions. Also will not include additional calculated fields in the output. (e.g. timestamps)",
                     "type": "checkbox",
                     "name": "raw",
                     "visible": true,
@@ -52,7 +55,7 @@
         {
             "operation": "get_parser_list",
             "title": "Get Parser List",
-            "description": "Get Parser List",
+            "description": "Get the list of standard parsers available in this version of JC. The full parser list can be found at https://github.com/kellyjonbrazil/jc#parsers.",
             "enabled": true,
             "visible": false,
             "parameters": [],
