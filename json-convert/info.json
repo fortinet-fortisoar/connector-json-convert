@@ -7,6 +7,7 @@
     "icon_small_name": "jc_small.png",
     "icon_medium_name": "",
     "icon_large_name": "jc_large.png",
+    "help_online": "https://docs.fortinet.com/document/fortisoar/1.0.0/jc-parse-command-output/323/jc-parse-command-output-v1-0-0",
     "category": "Utilities",
     "configuration": {},
     "operations": [
