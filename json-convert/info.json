@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "label": "JC - Parse Command Output",
     "description": "Convert the output of many commands and file-types to structured objects using the open-source JSON Convert (JC) library. The JC project details can be found at https://github.com/kellyjonbrazil/jc",
-    "publisher": "Community",
+    "publisher": "Kelly Brazil",
     "icon_small_name": "jc_small.png",
     "icon_medium_name": "",
     "icon_large_name": "jc_large.png",

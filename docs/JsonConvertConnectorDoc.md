@@ -7,7 +7,7 @@ Convert the output of many commands and file-types to structured objects using t
 Connector Version: 1.0.0
 
 
-Authored By: Community
+Authored By: Kelly Brazil
 
 Certified: No
 
