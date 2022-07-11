@@ -7,7 +7,7 @@
     "icon_small_name": "jc_small.png",
     "icon_medium_name": "",
     "icon_large_name": "jc_large.png",
-    "category": "",
+    "category": "Utilities",
     "configuration": {},
     "operations": [
         {
@@ -15,8 +15,8 @@
             "title": "Convert",
             "description": "Convert command or file output to a Dict or List of Dicts.",
             "enabled": true,
-            "category": "utilities",
-            "annotation": "",
+            "category": "miscellenous",
+            "annotation": "convert",
             "output_schema": {
                 "result": "",
                 "api_data": ""
@@ -47,7 +47,9 @@
                     "type": "checkbox",
                     "name": "raw",
                     "visible": true,
-                    "editable": true
+                    "editable": true,
+                    "required": false,
+                    "value": false
                 }
             ],
             "open": false
