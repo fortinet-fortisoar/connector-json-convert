@@ -29,7 +29,7 @@ None.
 
 ## Actions supported by the connector
 The following automated operations can be included in playbooks and you can also use the annotations to access operations from FortiSOAR&trade; release 4.10.0 and onwards:
-<table border=1><thead><tr><th>Function<br></th><th>Description<br></th><th>Annotation and Category<br></th></tr></thead><tbody><tr><td>Convert<br></td><td>Convert command or file output to a Dict or List of Dicts.<br></td><td> <br/>Utilities<br></td></tr>
+<table border=1><thead><tr><th>Function<br></th><th>Description<br></th><th>Annotation and Category<br></th></tr></thead><tbody><tr><td>Convert<br></td><td>Convert command or file output to a Dict or List of Dicts.<br></td><td> <br/>miscellenous<br></td></tr>
 </tbody></table>
 
 ### operation: Convert
